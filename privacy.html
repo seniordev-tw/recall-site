@@ -8,7 +8,7 @@
 <p>最後更新：2026-10-26</p>
 <p>你輸入的所有內容（科目、項目、複習紀錄、設定）儲存在你的裝置上，我們沒有伺服器，也不會上傳這些資料。</p>
 <ul>
-<li>免費版使用 Google Firebase Analytics 收集匿名的使用統計（見下方「使用統計」）；不使用其他分析或追蹤 SDK。</li>
+<li>免費版使用 Google Firebase Analytics 收集匿名的使用統計（完整版預設不收，可自願開啟；見下方「使用統計」）；不使用其他分析或追蹤 SDK。</li>
 <li>通知權限只用於本機的每日提醒。</li>
 <li>「匯出」功能會把資料交給你選擇的分享對象（例如雲端硬碟）；那之後的處理由該服務的政策規範。</li>
 <li>「自動備份到資料夾」只會把備份檔寫進你自己選的資料夾，不會傳給我們；若該資料夾由雲端硬碟同步，之後的處理由該服務的政策規範。</li>
@@ -20,9 +20,10 @@
 <p>歐洲經濟區、英國與瑞士的使用者在首次啟動時會看到同意選項，之後可在 app 的「設定 › 廣告隱私設定」隨時修改。</p>
 <p>複習中的畫面不顯示廣告。購買「完整版」後，app 不再載入廣告 SDK，也不再傳送上述資料。</p>
 <h2>使用統計</h2>
-<p>免費版使用 Google Firebase Analytics 收集匿名的使用統計，用來了解廣告與升級提示的安排是否讓人流失，並改善 app。會收集：app 的啟動與使用時間、完成複習的日數、是否出現全螢幕廣告與升級畫面（及出現的原因）、裝置型號、作業系統與 app 版本、由 IP 位址推算的概略位置，以及 Firebase 為 app 安裝產生的識別碼與裝置廣告 ID。<strong>不包含</strong>你輸入的科目、項目或複習內容。這些資料由 Google 依其隱私權政策處理。</p>
+<p>免費版使用 Google Firebase Analytics 收集匿名的使用統計，用來了解廣告與升級提示的安排是否讓人流失，並改善 app。會收集：app 的啟動與使用時間、完成複習的日數、是否出現全螢幕廣告與升級畫面（及出現的原因）、你建立科目與新增項目的方式（只記類型與數量，例如筆記或單字本、複習形式與排程方式、是否自訂曲線、單筆或整批新增）、是否使用假期、積壓救援與備份功能、裝置型號、作業系統與 app 版本、由 IP 位址推算的概略位置，以及 Firebase 為 app 安裝產生的識別碼與裝置廣告 ID。<strong>不包含</strong>你輸入的科目、項目或複習內容。這些資料由 Google 依其隱私權政策處理。</p>
 <p>免費版另使用 Firebase Remote Config 與 A/B 測試，隨機決定部分使用者是否會看到全螢幕廣告，用來評估廣告對使用體驗的影響。這會用到 Firebase 為 app 安裝產生的識別碼，與使用統計同樣在同意之後才啟用。</p>
-<p>歐洲經濟區、英國與瑞士的使用者在同意選項處理完之前不會收集；其他地區在廣告功能初始化後開始收集。購買「完整版」後，app 會關閉使用統計；已收集的資料仍保留在 Google 的系統中。你也可以在裝置的「設定 › Google › 廣告」重設廣告 ID。</p>
+<p>歐洲經濟區、英國與瑞士的使用者在同意選項處理完之前不會收集；其他地區在廣告功能初始化後開始收集。購買「完整版」後，app 預設關閉使用統計；已收集的資料仍保留在 Google 的系統中。你也可以在裝置的「設定 › Google › 廣告」重設廣告 ID。</p>
+<p><strong>完整版使用者可以自願開啟。</strong>購買完整版後預設不收集任何使用資料。若你願意幫忙改進 app，可以在「設定 › 分享匿名使用統計」開啟（今日頁也會出現一次邀請），開啟後會收集上述同樣種類的匿名使用統計，不用於廣告；你可以隨時在同一個開關關閉，關閉後不再收集，已收集的資料仍保留在 Google 的系統中。只有你開啟，才會收集。</p>
 <h2>應用程式內購買</h2>
 <p>「完整版」是透過 <strong>Google Play</strong> 完成的一次性購買。付款資料由 Google Play 處理，我們不會取得你的付款資訊；購買紀錄綁定你的 Google 帳號，換裝置後可在「設定 › 還原購買」還原。退款依 <a href="https://support.google.com/googleplay/answer/2479637">Google Play 的退款政策</a>辦理。</p>
 
@@ -30,7 +31,7 @@
 <p>Last updated: 2026-10-26</p>
 <p>Everything you enter (subjects, items, review history, settings) is stored on your device. We run no servers and never upload this data.</p>
 <ul>
-<li>The free version uses Google Firebase Analytics for anonymous usage statistics (see “Usage statistics” below); no other analytics or tracking SDKs.</li>
+<li>The free version uses Google Firebase Analytics for anonymous usage statistics (off by default in the Full version, which you can opt into; see “Usage statistics” below); no other analytics or tracking SDKs.</li>
 <li>The notification permission is used only for local daily reminders.</li>
 <li>"Export" hands your data to the share target you choose (e.g. a cloud drive); from there the policy of that service applies.</li>
 <li>"Auto backup to a folder" only writes backup files into a folder you pick; nothing is sent to us. If that folder is synced by a cloud drive, that service's policy applies from there.</li>
@@ -42,10 +43,11 @@
 <p>Users in the EEA, the UK and Switzerland are asked for consent on first launch and can change their choice at any time in the app under Settings › Ad privacy options.</p>
 <p>No ads are shown during a review session. After purchasing the Full version, the app no longer loads the ad SDK and no longer sends the data above.</p>
 <h2>Usage statistics</h2>
-<p>The free version uses Google Firebase Analytics to collect anonymous usage statistics, to understand whether the placement of ads and upgrade prompts makes people stop using the app, and to improve it. It collects: app launches and usage time, the number of days on which you completed a review session, whether a full-screen ad or the upgrade screen was shown (and why), device model, operating system and app version, an approximate location derived from your IP address, and the identifier Firebase generates for each installation together with the device advertising ID. It does <strong>not</strong> include the subjects, items or review content you enter. Google processes this data under its Privacy Policy.</p>
+<p>The free version uses Google Firebase Analytics to collect anonymous usage statistics, to understand whether the placement of ads and upgrade prompts makes people stop using the app, and to improve it. It collects: app launches and usage time, the number of days on which you completed a review session, whether a full-screen ad or the upgrade screen was shown (and why), how you create subjects and add items (type and count only, for example note or vocabulary subject, review style and scheduling mode, whether a custom curve is used, single or batch add), whether you use vacation, backlog rescue and backup features, device model, operating system and app version, an approximate location derived from your IP address, and the identifier Firebase generates for each installation together with the device advertising ID. It does <strong>not</strong> include the subjects, items or review content you enter. Google processes this data under its Privacy Policy.</p>
 <p>The free version also uses Firebase Remote Config and A/B Testing to randomly decide whether some users are shown full-screen ads, in order to evaluate how ads affect the experience. This uses the identifier Firebase generates for each installation and, like usage statistics, is enabled only after the consent step.</p>
-<p>For users in the EEA, the UK and Switzerland, nothing is collected until the consent choice has been handled; elsewhere collection starts once the ad feature initialises. After you purchase the Full version the app turns usage statistics off; data already collected remains in Google's systems. You can also reset your advertising ID under your device's Settings › Google › Ads.</p>
+<p>For users in the EEA, the UK and Switzerland, nothing is collected until the consent choice has been handled; elsewhere collection starts once the ad feature initialises. After you purchase the Full version the app keeps usage statistics off by default; data already collected remains in Google's systems. You can also reset your advertising ID under your device's Settings › Google › Ads.</p>
+<p><strong>Full version users can opt in.</strong> After purchasing the Full version nothing about your usage is collected by default. If you would like to help improve the app, you can turn on Settings › Share anonymous usage stats (the Today screen also shows a one-time invitation). When on, the same kinds of anonymous usage statistics described above are collected and are not used for advertising. You can turn it off at any time with the same switch, after which nothing more is collected; data already collected remains in Google's systems. Nothing is collected unless you turn it on.</p>
 <h2>In-app purchase</h2>
 <p>The Full version is a one-time purchase made through <strong>Google Play</strong>. Payment details are handled by Google Play and never reach us. The purchase is tied to your Google account and can be restored on a new device under Settings › Restore purchase. Refunds follow <a href="https://support.google.com/googleplay/answer/2479637">Google Play's refund policy</a>.</p>
-<p>聯絡 / Contact: joey.chung@seniordev.tw</p>
+<p>聯絡 / Contact: info@seniordev.tw</p>
 </body></html>
